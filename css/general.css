@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 90px;
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.des{
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.logos{
+    width: 120px;
+    height: 120px;
+}
+td{
+    align-items: center;
+    text-align: center;
+}
+h3,h5{
+    font-weight: 400;
+    text-align: center;
+}

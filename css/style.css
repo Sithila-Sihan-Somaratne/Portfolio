@@ -1,51 +1,51 @@
-/*HERO SECTION*/
+/*HOME SECTION*/
 .image{
-     display: block;
-     margin-left: auto;
-     max-height: 340px;
-     max-width: 170px;
-     margin-right: auto;
-     width: 50%;
+    display: block;
+    margin-left: auto;
+    max-height: 340px;
+    max-width: 170px;
+    margin-right: auto;
+    width: 50%;
 }
 .Home_icon{
     font-size: 20px;
     font-weight: 600;  
 }
 ul{
-     list-style-type: none;
-     margin: 0;
-     padding: 10px;
-     background-color: seagreen;
-     position: fixed;
-     top: 0;
-     right: 0;
-     left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: seagreen;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 .Link{
-     display: inline;
+    display: inline;
 }
 .Links{
-     color: yellow;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 17px;
-     font-weight: 550;
-     text-decoration: none;
-     padding: 10px;
-     background-color: seagreen;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    text-decoration: none;
+    padding: 5px;
+    background-color: seagreen;
 }
 .Links:hover{
-     color: orange;
+    color: orange;
  }
 .Links:first-child{
-     padding-right: 2%;
-     margin-right: 20px;
+    padding-right: 2%;
+    margin-right: 20px;
 }
 .name{
-     font-size: 60px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     text-align: center;
-     font-weight: 600;
-     color: yellow;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: yellow;
 }
 .short-des{
     font-family: Verdana, Geneva, Tahoma, sans-serif;

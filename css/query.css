@@ -1,0 +1,23 @@
+/* 1rem = 1em = 16px */
+
+@media (max-width: 1260px) {
+    .Links{
+        padding: 0.31rem;
+    }
+    .Links:first-child{
+        padding-left: 4%;
+    }
+    .Links:last-child{
+        padding-right: 4%;
+    }
+}
+
+@media (max-width: 800px) {
+    .Links{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+  

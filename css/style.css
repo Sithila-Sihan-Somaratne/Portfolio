@@ -1,4 +1,8 @@
 /*HOME SECTION*/
+.Home_Page{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .image{
     display: block;
     margin-left: auto;
@@ -25,7 +29,7 @@ ul{
 .Link{
     display: inline;
 }
-.Links, .Home_Icon{
+.Links, .Home_Icon, .Links-Last{
     color: yellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
@@ -34,9 +38,12 @@ ul{
     padding: 2px;
     background-color: seagreen;
 }
-.Links:hover{
+.Links-Last{
+    margin-right: 20px;
+}
+.Links:hover, .Links-Last:hover{
     color: orange;
- }
+}
 .Links:first-child{
     margin-right: 20px;
 }

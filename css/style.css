@@ -6,8 +6,8 @@
 .image{
     display: block;
     margin-left: auto;
-    max-height: 340px;
-    max-width: 170px;
+    max-height: 21.25rem;
+    max-width: 10.62rem;
     margin-right: auto;
     width: 50%;
 }
@@ -19,7 +19,7 @@
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0.62rem;
     background-color: seagreen;
     position: fixed;
     top: 0;
@@ -32,23 +32,23 @@ ul{
 .Links, .Home_Icon, .Links-Last{
     color: yellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
+    font-size: 1.06rem;
     font-weight: 550;
     text-decoration: none;
-    padding: 2px;
+    padding: 0.12rem;
     background-color: seagreen;
 }
 .Links-Last{
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .Links:hover, .Links-Last:hover{
     color: orange;
 }
 .Links:first-child{
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .name{
-    font-size: 60px;
+    font-size: 3.75;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-weight: 600;
@@ -84,8 +84,8 @@ table{
 }
 /*PAGES SECTION*/
 .web{
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 /*PRODUCT SECTION*/
 .Products{
@@ -124,7 +124,7 @@ table{
 }
 /*FOOTER*/
 footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 1.25;
+    padding-bottom: 1.25;
     text-align: center;
 }

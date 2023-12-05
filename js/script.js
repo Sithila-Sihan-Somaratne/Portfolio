@@ -90,3 +90,20 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
+/////////////////////////////////////////////////////////////
+//Deleting an item when max-width of screen is 440
+var $carousel = $('#carouselExample');
+function deleteCarouselItem() {
+  var ActiveElement = $carousel.find('#image-carousel');
+  ActiveElement.remove();
+  var NextElement = $carousel.find('#futureActive');
+  NextElement.addClass('active');
+}
+$(document).ready(()=>{
+  window.onresize = (event) => {
+    console.log(screen.width);
+    if(screen.width <= 440){
+      deleteCarouselItem();
+    }
+  }
+})

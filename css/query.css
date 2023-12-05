@@ -112,3 +112,12 @@
         grid-template-columns: auto;
     }
 }
+@media (max-width: 440px){
+    #carouselExample, #carouselExample>div, #carouselExample>div>div{
+        width: 210px;
+        height: 180px;
+    }
+    #img-carousel{
+        display: none;
+    }
+}

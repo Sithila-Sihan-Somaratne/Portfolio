@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -19,14 +20,14 @@
     width: 120px;
     height: 120px;
 }
-.logos{
-    width: 120px;
-    height: 120px;
-}
-td{
-    text-align: center;
-}
 h3,h5{
     font-weight: 400;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.item{
     text-align: center;
 }

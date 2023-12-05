@@ -1,46 +1,114 @@
 /* 1rem = 1em = 16px */
-@media (min-width: 941px) {
-    .btn-mobile-nav{
-        opacity: 0;
-        pointer-events: none;
-        visibility: hidden;
-    }
-}
 @media (max-width: 1285px) {
-    .Home_Link{
+    .Home_Link {
         margin-left: 6%;
         margin-right: 35%;
     }
-    .Links-Last{
+
+    .Links-Last {
         margin-right: 4%;
     }
 }
+
 @media (max-width: 1203px) {
-    .Home_Link{
+    .Home_Link {
         margin-left: 7%;
         margin-right: 25%;
     }
-    .Links-Last{
+
+    .Links-Last {
         margin-right: 5%;
     }
 }
+
 @media (max-width: 1055px) {
-    .Home_Link{
+    .Home_Link {
         margin-left: 8%;
         margin-right: 15%;
     }
-    .Links-Last{
+
+    .Links-Last {
         margin-right: 6%;
     }
 }
-@media (max-width: 940px) {
-    .Links{
+@media (max-width: 1010px) {
+    /* MOBILE NAVIGATION */
+       .btn-mobile-nav {
+        display: block;
+        z-index: 9999;
+    }
+
+    .main-nav {
+        background-color: rgba(46, 140, 87, 0.9);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-in;
+
+        /* Hide navigation */
+        /* Allows NO transitions at all */
+        /* display: none; */
+
+        /* 1) Hide it visually */
+        opacity: 0;
+
+        /* 2) Make it unaccessible to mouse and keyboard */
+        pointer-events: none;
+
+        /* 3) Hide it from screen readers */
+        visibility: hidden;
+    }
+
+    .nav-open .main-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+        color: #f6f600;
+
+    }
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+        color: #f6f600;
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 3rem;
+    }
+
+    .Links {
         display: none;
     }
-    .Links-Last{
+
+    .Links-Last {
         display: none;
     }
-    .Home_Link{
+
+    .Home_Link {
         display: inline;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: auto;
     }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,57 +11,93 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/query.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" /></head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="icon" href="img/Sithila.png" >
-    <title>My Portfolio</title>
 </head>
+<link rel="icon" href="img/Sithila.png">
+<title>My Portfolio</title>
+</head>
+
 <body>
-    <header id="Home" class="Home_Page" style="background-image: url(img/home.jpg);">
-        <br><br><br><br><br><br>
-        <ul>
-            <div class="Home_Link"><li class="Link"><a class="Links" href="#Home"><ion-icon name="home" class="Home_icon"></ion-icon></a></li></div>
-            <li class="Link"><a class="Links" href="#links">LINKS</a></li>
-            <li class="Link"><a class="Links" href="#pages">PAGES</a></li>
-            <li class="Link"><a class="Links" href="#products">PRODUCTS</a></li>
-            <li class="Link"><a class="Links" href="#experience">EXPERIENCE</a></li>
-            <li class="Link"><a class="Links" href="#about_me">ABOUT</a></li>
-            <li class="Link"><a class="Links-Last" href="#journey">JOURNEY</a></li>
-        </ul>
+    <header id="#" class="header">
+        <a href="#">
+            <img src="img/home-icon.png" alt="Home Icon">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link" href="#links">LINKS</a></li>
+                <li><a class="main-nav-link" href="#pages">PAGES</a></li>
+                <li>
+                    <a class="main-nav-link" href="#products">PRODUCTS</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="#experience">EXPERINECES</a>
+                </li>
+                <li><a class="main-nav-link" href="#about_me">ABOUT ME</a></li>
+                <li><a class="main-nav-link" href="#journey">JOURNEY</a></li>
+            </ul>
+        </nav>
+
         <button class="btn-mobile-nav">
-            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-          </button>
-        <div class="container">
-            <img class="image" src="img/Sithila.png" alt="Sithila Sihan Somaratne">
-            <h1 class="name" id="logo_name">Sithila Sihan Somaratne</h1>
-            <p class="short-des">Later Another Software Engineering in the World</p><br><br><br>
-        </div>
-        <br><br><br><br>
+            <ion-icon style="color: #f6f600;" class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon style="color: #f6f600;" class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
     </header>
+    <section id="home" class="Home_Section">
+        <br><br><br>
+        <div class="img-container">
+            <img src="img/Sithila.png" alt="Photo of me">
+        </div>
+        <h1>Sithila Sihan Somaratne</h1>
+        <br>
+        <p>A young boy, who will later become another Software Engineer in the World!</p>
+        <br><br><br>
+    </section>
     <section id="links" class="Links_Section">
         <br><br><br><br>
         <h2 class="title">Where you can find me?</h2><br>
         <p class="des">Here where you can find me: </p><br><br><br>
-        <table style="width: 95%;">
-            <tr>
-                <td><a class="the_link" target="_blank" href="https://medium.com/@sithilass2010"><img src="img/medium.jpg" class="logo" alt="Medium Logo"></a><br><br><strong>Sithila Sihan Somaratne</strong><br><span class="subtitle">Blogs</span></td>
-                <td><a class="the_link" target="_blank" href="https://github.com/Sithila-Sihan-Somaratne"><img src="img/Github.jpg" class="logo" alt="Github Logo"></a><br><br><strong>Sithila-Sihan-Somaratne</strong><br><span class="subtitle">Stored Code</span></td>
-                <td><a class="the_link" target="_blank" href="https://gitlab.com/sithila"><img src="img/Gitlab.png" class="logo" alt="Gitlab Logo"></a><br><br><strong>Sithi</strong><br><span class="subtitle">Stored Code</span></td>
-            </tr>
-        </table>
-        <br><br><br><br><br><br>
+        <div class="container">
+            <div class="item">
+                <a class="the_link" target="_blank" href="https://medium.com/@sithilass2010">
+                <img src="img/medium.jpg" class="logo" alt="Medium Logo"></a>
+                <br><br>
+                <strong>Sithila Sihan Somaratne</strong>
+                <br><span class="subtitle">Blogs</span>
+            </div>
+            <div class="item">
+                <a class="the_link" target="_blank" href="https://github.com/Sithila-Sihan-Somaratne">
+                <img src="img/Github.jpg" class="logo" alt="Github Logo"></a>
+                <br><br>
+                <strong>Sithila-Sihan-Somaratne</strong>
+                <br><span class="subtitle">Stored Code</span>
+            </div>
+            <div class="item">
+                <a class="the_link" target="_blank" href="https://gitlab.com/sithila">
+                <img src="img/Gitlab.png" class="logo" alt="Gitlab Logo"></a>
+                <br><br>
+                <strong>Sithi</strong>
+                <br><span class="subtitle">Stored Code</span>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
     </section>
     <section id="pages" class="Pages">
         <br><br><br><br>
         <h2 class="title">Web Sites</h2><br>
         <p class="des">Here are some web pages: </p><br><br><br>
-        <table>
-            <tr>
-                <td><a class="the_web" target="_blank" href="https://omnifood-sithila.netlify.app"><img src="img/Omnifood.png" class="web" alt="Omnifood Logo"></a><br><br><h3>Omnifood</h3><br><h5>Web Site</h5></td>
-            </tr>
-        </table>
+        <div style="display: grid; grid-template-columns: auto;">
+            <div class="item">
+                <a class="the_web" target="_blank" href="https://omnifood-sithila.netlify.app">
+                <img src="img/Omnifood.png" class="web" alt="Omnifood Logo"></a><br><br>
+                <h3>Omnifood</h3><br>
+                <h5>Web Site</h5>
+            </div>
+        </div>
         <br><br><br><br><br>
     </section>
     <section id="products" class="Products">
@@ -74,102 +111,130 @@
         <br><br>
         <h2 class="title">Tech Experience</h2><br>
         <p class="des">Here are some technologies I'm profient with: </p><br><br><br>
-        <table>
-            <tr>
-                <td>
-                    <div>
-                        <img src="img/Java.png" class="logos" alt="Java Logo"></a><br><br><b>Java</b><br><p class="para">11+</p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img src="img/MySQL.png" class="logos" alt="MySQL Logo"></a><br><br><strong>MySQL</strong><br><p class="para">8+</p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img src="img/Python.png" class="logos" alt="Python Logo"></a><br><br><strong>Python</strong><br><p class="para">3+</p>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div>
-                        <img src="img/HTML.png" class="logos" alt="HTML Logo"></a><br><br><b>HTML</b><br><p class="para">5</p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img src="img/CSS.png" class="logos" alt="CSS Logo"></a><br><br><b>CSS</b><br><p class="para">3</p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img src="img/JavaScript.png" class="logos" alt="JavaScript Logo"></a><br><br><b>JavaScript</b><br><p class="para">ES6</p>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div>
-                        <img src="img/Apache Maven.png" class="logos" alt="Apache Maven Logo"></a><br><br><b>Apache Maven</b><br><p class="para">3+</p>
-                    </div>
-                </td>
-                <td>
-                    <div>
-                        <img src="img/Git.webp" class="logos" alt="Apache Maven Logo"></a><br><br><b>Git</b><br><p class="para">2+</p>
-                    </div>
-                </td>
-            </tr>
-        </table>
+        <div class="container">
+            <div class="item">
+                <img src="img/Java.png" width="120px" height="120px" alt="Java Logo"></a><br><br><b>Java</b><br>
+                <p class="para">11</p><br>
+            </div>
+            <div class="item">
+                <img src="img/JavaFX.png" height="120px" alt="JavaFX Logo"></a><br><br><b>JavaFX</b><br>
+                <p class="para">17.0.8</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Spring Boot Framework.png"  height="120px" alt="Spring Boot Framework Logo"></a><br><br><strong>Spring Boot Framework</strong><br>
+                <p class="para">3.1.2</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Python.png" height="120px" alt="Python Logo"></a><br><br><strong>Python</strong><br>
+                <p class="para">3.11</p><br>
+            </div>
+            <div class="item">
+                <img src="img/MySQL.png" height="120px" alt="MySQL Logo"></a><br><br><strong>MySQL</strong><br>
+                <p class="para">8.0.3+</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Apache Maven.png" height="120px" alt="Apache Maven Logo"></a><br><br><b>Apache
+                    Maven</b><br>
+                <p class="para">3.9.4</p><br>
+            </div>
+            <div class="item">
+                <img src="img/HTML.png" height="120px" alt="HTML Logo"></a><br><br><b>HTML</b><br>
+                <p class="para">5</p><br>
+            </div>
+            <div class="item">
+                <img src="img/CSS.png" height="120px" alt="CSS Logo"></a><br><br><b>CSS</b><br>
+                <p class="para">3</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Bootstrap.png" height="120px" alt="Bootstrap Logo"></a><br><br><b>Bootstrap</b><br>
+                <p class="para">5+</p><br>
+            </div>
+            <div class="item">
+                <img src="img/JavaScript.png" height="120px" alt="JavaScript Logo"></a><br><br><b>JavaScript</b><br>
+                <p class="para">ES6</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Typescript.png" height="120px" alt="Typescript Logo"></a><br><br><b>Typescript</b><br>
+                <p class="para">4.9+</p><br>
+            </div>
+            <div class="item">
+                <img src="img/jquery.gif" height="120px" alt="jQuery Logo"></a><br><br><b>jQuery</b><br>
+                <p class="para">3.7.1</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Node JS.png" height="120px" alt="Node JS Logo"></a><br><br><b>Node JS</b><br>
+                <p class="para">18.16.1</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Angular JS.png" height="120px" alt="Angular JS Logo"></a><br><br><b>Angular JS</b><br>
+                <p class="para">16.2.2</p><br>
+            </div>
+            <div class="item">
+                <img src="img/Git.webp" height="120px" alt="Git Logo"></a><br><br><b>Git</b><br>
+                <p class="para">2.41.0</p><br>
+            </div>
+        </div>
         <br><br><br><br>
     </section>
     <section id="about_me" class="About_Me">
-        <br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
         <h2 class="title">Who am I?</h2><br><br>
-        <p class="desc" style="font-size: 22px;">I'm a young boy who would become later a software engineer in Milan, Italy.<br> I would like the World a best place for everyone. <br>I would like the people to grow with my knowledge and do a good with those money for our planet. </p>
-        <br><br><br><br><br><br>
+        <p class="desc">I'm a young boy who would become <br> later a software engineer in Milan,
+            Italy.<br> I would like the World a best place for everyone. <br>I would like the people to grow with my
+            knowledge <br> and do a good with those money for our planet. </p>
+        <br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
     </section>
     <section class="page-section bg-light" id="journey">
         <h2 class="title">Journey</h2>
         <p class="desc">My journey so far...</p><br><br><br><br><br>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
-              <div class="carousel-item active" style="width: 420px; height: 180px; " data-bs-interval="2000">
-                <img src="img/iCET logo.png" class="d-block w-100" width="420px"; height = "180px";  alt="iCET">
-            </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <h3 class="h3">Since 24th March 2023</h3>
-                <h3 class="h3">iCET</h3>
-                <p class="description">I'm learning in iCET as a student <br> & I'm truing my best do learn IT <br> & become a Software Engineering later.</p>               
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item" style="width: 420px; height: 180px; " data-bs-interval="2000">
-                  <img src="img/Majno Logo.jpg" class="d-block w-100" width="420px"; height = "180px";  alt="Majno">
-              </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <h3 class="h3">2022-2024</h3>
-                  <h3 class="h3">Majno</h3>
-                  <p class="description">Did my O/L  at the <br> iCS Commenda "Corso di Porta Romana" <br> (in English is the Statal Symphatetic Institute of Commenda in Corso di Porta Romana)</p>               
+                <div class="carousel-item active" style="width: 420px; height: 180px; " data-bs-interval="2000">
+                    <img src="img/iCET logo.png" class="d-block w-100" width="420px" ; height="180px" ; alt="iCET">
                 </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h3 class="h3">Since 24th March 2023</h3>
+                    <h3 class="h3">iCET</h3>
+                    <p class="description">I'm learning in iCET as a student <br> & I'm trying my best do learn IT <br>
+                        & become a Software Engineering later.</p>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item" style="width: 420px; height: 180px; " data-bs-interval="2000">
+                        <img src="img/Majno Logo.jpg" class="d-block w-100" width="420px" ; height="180px" ;
+                            alt="Majno">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <h3 class="h3">2022-2024</h3>
+                        <h3 class="h3">Majno</h3>
+                        <p class="description">Did my O/L at the <br> iCS Commenda "Corso di Porta Romana" <br> (in
+                            English is the Statal Symphatetic Institute of Commenda in Corso di Porta Romana)</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">first</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">last</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">first</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">last</span>
-            </button>
-          </div>
     </section>
     <footer style="background-color: #b4b2b2;">
-        <p>Copyright <b>&COPY;</b> Sithila.  Made and designed by Sithila Sihan Somaratne.</p>
+        <p>Copyright <b>&COPY;</b> Sithila. Made and designed by Sithila Sihan Somaratne.</p>
     </footer>
     <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

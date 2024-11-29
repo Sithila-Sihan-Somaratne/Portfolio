@@ -5,9 +5,9 @@
 }
 .title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 90px;
+    padding-top: 5.625rem;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: black;
     text-align: center;
 }
@@ -17,8 +17,14 @@
     text-align: center;
 }
 .logo{
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+section{
+    padding: 7.5rem 0;
+}
+h2{
+    padding-top: 0 !important;
 }
 h3,h5{
     font-weight: 400;
@@ -26,11 +32,14 @@ h3,h5{
 }
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
 }
-.item{
+.col{
     text-align: center;
+    padding: 1.25rem 0 0 0.313rem;
 }
 .the_link, .the_web{
     cursor: pointer;
+}
+#logo{
+    height: 6.563rem;
 }

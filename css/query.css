@@ -1,5 +1,4 @@
-/* 1rem = 1em = 16px */
-@media (max-width: 1285px) {
+@media (max-width: 80.313rem) {
     .Home_Link {
         margin-left: 6%;
         margin-right: 35%;
@@ -10,7 +9,7 @@
     }
 }
 
-@media (max-width: 1203px) {
+@media (max-width: 75.188rem) {
     .Home_Link {
         margin-left: 7%;
         margin-right: 25%;
@@ -21,7 +20,7 @@
     }
 }
 
-@media (max-width: 1055px) {
+@media (max-width: 65.938rem) {
     .Home_Link {
         margin-left: 8%;
         margin-right: 15%;
@@ -31,17 +30,25 @@
         margin-right: 6%;
     }
 }
-@media (max-width: 1010px) {
+@media (max-width: 63.125rem) {
+    h2{
+        font-size: 1.75rem !important;
+    }
+
     /* MOBILE NAVIGATION */
-       .btn-mobile-nav {
+    .btn-mobile-nav {
         display: block;
         z-index: 9999;
     }
 
+    .header{
+        padding: 0 2.4rem;
+    }
+
     .main-nav {
         background-color: rgba(46, 140, 87, 0.9);
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(0.313rem);
+        backdrop-filter: blur(0.625rem);
         position: absolute;
         top: 0;
         left: 0;
@@ -102,16 +109,21 @@
     .Home_Link {
         display: inline;
     }
+
     .container{
-        display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto !important;
+    }
+
+    #content, #contacts, .footer-nav-list{
+        text-align: center;
     }
 }
-@media (max-width: 440px){
+@media (max-width: 27.5rem){
     #carouselExample, #carouselExample>div, #carouselExample>div>div{
-        width: 210px;
-        height: 180px;
+        width: 13.125rem;
+        height: 11.25rem;
     }
+
     #img-carousel{
         display: none;
     }
